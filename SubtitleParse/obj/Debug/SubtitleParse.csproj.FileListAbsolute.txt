@@ -1,0 +1,12 @@
+C:\Users\User\RiderProjects\BatchSubtitleRetimer\SubtitleParse\bin\Debug\SubtitleParse.dll
+C:\Users\User\RiderProjects\BatchSubtitleRetimer\SubtitleParse\bin\Debug\SubtitleParse.pdb
+C:\Users\User\RiderProjects\BatchSubtitleRetimer\SubtitleParse\obj\Debug\SubtitleParse.csprojAssemblyReference.cache
+C:\Users\User\RiderProjects\BatchSubtitleRetimer\SubtitleParse\obj\Debug\SubtitleParse.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\BatchSubtitleRetimer\SubtitleParse\obj\Debug\SubtitleParse.dll
+C:\Users\User\RiderProjects\BatchSubtitleRetimer\SubtitleParse\obj\Debug\SubtitleParse.pdb
+C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\bin\Debug\SubtitleParse.dll
+C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\bin\Debug\SubtitleParse.pdb
+C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\obj\Debug\SubtitleParse.csprojAssemblyReference.cache
+C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\obj\Debug\SubtitleParse.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\obj\Debug\SubtitleParse.dll
+C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\obj\Debug\SubtitleParse.pdb

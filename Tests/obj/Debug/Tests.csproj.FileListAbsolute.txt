@@ -1,0 +1,9 @@
+C:\Users\User\RiderProjects\SubtitleParse\Tests\bin\Debug\Tests.exe
+C:\Users\User\RiderProjects\SubtitleParse\Tests\bin\Debug\Tests.pdb
+C:\Users\User\RiderProjects\SubtitleParse\Tests\bin\Debug\SubtitleParse.dll
+C:\Users\User\RiderProjects\SubtitleParse\Tests\bin\Debug\SubtitleParse.pdb
+C:\Users\User\RiderProjects\SubtitleParse\Tests\obj\Debug\Tests.csprojAssemblyReference.cache
+C:\Users\User\RiderProjects\SubtitleParse\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\SubtitleParse\Tests\obj\Debug\Tests.csproj.CopyComplete
+C:\Users\User\RiderProjects\SubtitleParse\Tests\obj\Debug\Tests.exe
+C:\Users\User\RiderProjects\SubtitleParse\Tests\obj\Debug\Tests.pdb

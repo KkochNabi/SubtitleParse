@@ -33,7 +33,7 @@ namespace SubtitleParse
         ///<summary>
         ///Adds a single path to the class list of paths
         ///</summary>
-        public void AddLocation(string path)
+        public override void AddLocation(string path)
         {
             Locations.Add(path);
         }
@@ -41,7 +41,7 @@ namespace SubtitleParse
         /// <summary>
         /// Adds any i-enumerable of strings datatype containing paths to the class list of paths
         /// </summary>
-        public void AddLocation(IEnumerable<string> paths)
+        public override void AddLocation(IEnumerable<string> paths)
         {
             foreach (var path in paths)
             {
@@ -63,7 +63,7 @@ namespace SubtitleParse
         /// <summary>
         /// Start parsing the paths of the files present in Locations and add appropriate parsed information in Name, Start, End, and Line.
         /// </summary>
-        public void ParsePaths() //TODO: Implement custom name support
+        public override void ParsePaths() //TODO: Implement custom name support
         {
             foreach (var path in Locations)
             {
@@ -118,7 +118,7 @@ namespace SubtitleParse
         /// </summary>
         /// <param name="path">The path for the exported file</param>
         /// <param name="separator">The character separating the exported fields (default = tab)</param>
-        public void Export(string path, string separator)
+        public override void Export(string path, string separator) //TODO: Export different files based on show/searchgroup
         {
             separator = separator == "" ? "\t" : separator;
             using (var fs = new StreamWriter(path))

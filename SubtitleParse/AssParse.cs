@@ -23,6 +23,38 @@ namespace SubtitleParse
         private List<string> Style { get; }
         private List<string> Line { get; }
         
-        
+        ///<summary>
+        ///Adds a single path to the class list of paths
+        ///</summary>
+        public override void AddLocation(string path)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        /// <summary>
+        /// Adds any i-enumerable of strings datatype containing paths to the class list of paths
+        /// </summary>
+        public override void AddLocation(IEnumerable<string> paths)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        /// <summary>
+        /// Start parsing the paths of the files present in Locations and add appropriate parsed information in Name, Start, End, and Line.
+        /// </summary>
+        public override void ParsePaths()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        /// <summary>
+        /// Exports all parsed lines into a text file with a format of your choosing
+        /// </summary>
+        /// <param name="path">The path for the exported file</param>
+        /// <param name="separator">The character separating the exported fields (default = tab)</param>
+        public override void Export(string path, string separator)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

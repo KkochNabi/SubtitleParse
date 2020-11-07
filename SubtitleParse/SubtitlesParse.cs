@@ -26,14 +26,17 @@ namespace SubtitleParse
             Unknown
         }
         
-        private ICollection<string> Locations { get; }
+        private List<string> Locations { get; }
         private List<string> Name { get;  }
         private List<string> Start { get; }
         private List<string> End { get;  }
         private List<string> Style { get;  }
         private List<string> Line { get;  }
         //TODO: Option to ignore certain types of lines 
-        
 
+        public abstract void AddLocation(string path);
+        public abstract void AddLocation(IEnumerable<string> paths);
+        public abstract void ParsePaths();
+        public abstract void Export(string path, string separator);
     }
 }

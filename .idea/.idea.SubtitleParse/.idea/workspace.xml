@@ -4,11 +4,22 @@
     <projectFile>Tests/Tests.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c49a96a-5e11-484b-b062-aa6034d235ef" name="Default Changelist" comment="">
+    <list default="true" id="3c49a96a-5e11-484b-b062-aa6034d235ef" name="Default Changelist" comment="Set abstract methods">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SubtitleParse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SubtitleParse/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SubtitleParse/AssParse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SubtitleParse/AssParse.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SubtitleParse/SrtParse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SubtitleParse/SrtParse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SubtitleParse/SubtitlesParse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SubtitleParse/SubtitlesParse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubtitleParse/bin/Debug/SubtitleParse.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SubtitleParse/bin/Debug/SubtitleParse.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubtitleParse/bin/Debug/SubtitleParse.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SubtitleParse/bin/Debug/SubtitleParse.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubtitleParse/obj/Debug/SubtitleParse.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SubtitleParse/obj/Debug/SubtitleParse.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubtitleParse/obj/Debug/SubtitleParse.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SubtitleParse/obj/Debug/SubtitleParse.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Tests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/bin/Debug/SubtitleParse.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/SubtitleParse.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/bin/Debug/SubtitleParse.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/SubtitleParse.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/bin/Debug/Tests.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/Tests.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/bin/Debug/Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/bin/Debug/Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/obj/Debug/Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/Tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/obj/Debug/Tests.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/Tests.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/obj/Debug/Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/obj/Debug/Tests.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +29,45 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/SubtitleParse/SubtitlesParse.cs" />
       <option value="$PROJECT_DIR$/SubtitleParse/SrtParse.cs" />
+      <option value="$PROJECT_DIR$/Tests/Tests.cs" />
       <option value="$PROJECT_DIR$/SubtitleParse/AssParse.cs" />
     </changedPaths>
   </component>
@@ -38,6 +84,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -68,8 +120,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604716033158</updated>
-      <workItem from="1604716037455" duration="716000" />
+      <workItem from="1604716037455" duration="8658000" />
     </task>
+    <task id="LOCAL-00001" summary="Set abstract methods">
+      <created>1604716866845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604716866845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,5 +139,130 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Set abstract methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set abstract methods" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SubtitleParse/AssParse.cs</url>
+          <line>94</line>
+          <properties documentPath="C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\AssParse.cs" initialLine="82" containingFunctionPresentation="method 'ParsePaths'">
+            <startOffsets>
+              <option value="3208" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3246" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SubtitleParse/AssParse.cs</url>
+          <line>103</line>
+          <properties documentPath="C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\AssParse.cs" initialLine="91" containingFunctionPresentation="method 'ParsePaths'">
+            <startOffsets>
+              <option value="3915" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3944" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SubtitleParse/AssParse.cs</url>
+          <line>108</line>
+          <properties documentPath="C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\AssParse.cs" initialLine="96" containingFunctionPresentation="method 'ParsePaths'">
+            <startOffsets>
+              <option value="4132" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4172" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SubtitleParse/AssParse.cs</url>
+          <line>106</line>
+          <properties documentPath="C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\AssParse.cs" initialLine="94" containingFunctionPresentation="method 'ParsePaths'">
+            <startOffsets>
+              <option value="4045" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4051" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SubtitleParse/AssParse.cs</url>
+          <line>87</line>
+          <properties documentPath="C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\AssParse.cs" initialLine="83" containingFunctionPresentation="method 'ParsePaths'">
+            <startOffsets>
+              <option value="2910" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2949" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SubtitleParse/AssParse.cs</url>
+          <line>126</line>
+          <properties documentPath="C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\AssParse.cs" initialLine="121" containingFunctionPresentation="method 'ParsePaths'">
+            <startOffsets>
+              <option value="5395" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5401" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SubtitleParse/AssParse.cs</url>
+          <line>121</line>
+          <properties documentPath="C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\AssParse.cs" initialLine="121" containingFunctionPresentation="method 'ParsePaths'">
+            <startOffsets>
+              <option value="5159" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5182" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SubtitleParse/AssParse.cs</url>
+          <line>82</line>
+          <properties documentPath="C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\AssParse.cs" initialLine="82" containingFunctionPresentation="method 'ParsePaths'">
+            <startOffsets>
+              <option value="2717" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2728" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SubtitleParse/AssParse.cs</url>
+          <line>111</line>
+          <properties documentPath="C:\Users\User\RiderProjects\SubtitleParse\SubtitleParse\AssParse.cs" initialLine="111" containingFunctionPresentation="method 'ParsePaths'">
+            <startOffsets>
+              <option value="4388" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4439" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

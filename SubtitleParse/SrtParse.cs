@@ -68,12 +68,12 @@ namespace SubtitleParse
             foreach (var path in Locations)
             {
                 var currentStage = SrtStage.Counter;
-                var currentLine = "";
                 var currentSubLine = new StringBuilder();
                 var firstLineDone = false;
                 
                 using (var fs = File.OpenText(path))
                 {
+                    var currentLine = "";
                     while ((currentLine = fs.ReadLine()) != null)
                     {
                         switch (currentStage)

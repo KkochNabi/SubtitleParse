@@ -80,6 +80,9 @@ namespace SubtitleParse
             Line.AddRange(lines);
         }
 
+        /// <summary>
+        /// Start parsing the paths of the files present in Locations and add appropriate parsed information in Name, Start, End, Style, and Line.
+        /// </summary>
         public override void ParsePaths()
         {
             foreach (var path in Locations)

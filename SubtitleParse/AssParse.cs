@@ -40,7 +40,7 @@ namespace SubtitleParse
         /// <summary>
         /// Adds any i-enumerable of strings datatype containing paths to the class list of paths
         /// </summary>
-        public override void AddLocation(IEnumerable<string> paths)
+        public override void AddLocation(IList<string> paths)
         {
             foreach (var path in paths)
             {
@@ -55,15 +55,24 @@ namespace SubtitleParse
             Format = 1,
             Line = 2
         }
-        
+
         /// <summary>
-        /// Start parsing the paths of the files present in Locations and add appropriate parsed information in Name, Start, End, and Line.
+        /// Start parsing the paths of the files present in Locations and add appropriate parsed information in Name, Start, End, Style, and Line.
         /// </summary>
         public override void ParsePaths()
         {
             foreach (var path in Locations)
             {
-                var currentStage = AssStage.PreRead;
+                ParsePath(path);
+            }
+        }
+
+        /// <summary>
+        /// Start parsing the paths of the files present in Locations and add appropriate parsed information in Name, Start, End, Style, and Line.
+        /// </summary>
+        internal override void ParsePath(string path)
+        {
+            var currentStage = AssStage.PreRead;
                 var currentLineSplit = new List<string>();
                 var formatting = new List<string>();
                 var sb = new StringBuilder();
@@ -126,7 +135,6 @@ namespace SubtitleParse
                         }
                     }
                 }
-            }
         }
 
         /// <summary>

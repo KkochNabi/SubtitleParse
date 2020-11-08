@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Text.RegularExpressions;
 using SubtitleParse;
 
@@ -18,9 +19,10 @@ namespace Tests
             var srtSingleMonolingual = srtBatchMonolingual[0];
             var assSingleMonolingual = assBatchMonolingual[0];
             var assSingleBilingual = assBatchBilingual[0];
+            var mixedBatch = srtBatchMonolingual.Concat(assBatchMonolingual).ToList();
             
-            var insert = new AssParse();
-            insert.AddLocation(assBatchMonolingual);
+            var insert = new AutoParse();
+            insert.AddLocation(mixedBatch);
             
             Console.WriteLine("First file: " + insert.Locations[0] + "\nPaths: " + insert.Locations.Count);
             

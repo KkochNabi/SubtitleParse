@@ -41,7 +41,7 @@ namespace SubtitleParse
         /// <summary>
         /// Adds any i-enumerable of strings datatype containing paths to the class list of paths
         /// </summary>
-        public override void AddLocation(IEnumerable<string> paths)
+        public override void AddLocation(IList<string> paths)
         {
             foreach (var path in paths)
             {
@@ -59,7 +59,7 @@ namespace SubtitleParse
             Timings = 1,
             Line = 2,
         }
-        
+
         /// <summary>
         /// Start parsing the paths of the files present in Locations and add appropriate parsed information in Name, Start, End, and Line.
         /// </summary>
@@ -67,51 +67,61 @@ namespace SubtitleParse
         {
             foreach (var path in Locations)
             {
-                var currentStage = SrtStage.Counter;
-                var currentSubLine = new StringBuilder();
-                var firstLineDone = false;
-                
-                using (var fs = File.OpenText(path))
-                {
-                    var currentLine = "";
-                    while ((currentLine = fs.ReadLine()) != null)
-                    {
-                        switch (currentStage)
-                        {
-                            case SrtStage.Counter: // Counters are unnecessary, we can just use indexing in the list
-                                //currentSubLine++; // If reactivating this line, change currentSubLine to be int
-                                currentStage = SrtStage.Timings;
-                                break;
-                            case SrtStage.Timings:
-                                Start.Add(Convert.ToString(Regex.Match(currentLine, @"(.+) --> (.+\d)").Groups[1])
-                                    .Replace(",", "."));
-                                End.Add(Convert.ToString(Regex.Match(currentLine, @"(.+) --> (.+\d)").Groups[2])
-                                    .Replace(",", "."));
-                                currentStage = SrtStage.Line;
-                                break;
-                            case SrtStage.Line:
-                                if (currentLine == "") // When we surpassed all the lines in the subtitle
-                                {
-                                    //currentStage = SrtStage.Spacing;
-                                    Line.Add(currentSubLine.ToString());
-                                    currentSubLine.Clear();
-                                    Name.Add(Path.GetFileNameWithoutExtension(path));
-                                    firstLineDone = false;
-                                    currentStage = SrtStage.Counter;
-                                    break;
-                                }
-
-                                currentSubLine.Append(firstLineDone ? "<br>" + currentLine : currentLine); // <br> is used for newline because Anki uses html tags
-                                firstLineDone = true;
-                                break;
-                            default: // Should never happen, there are no other possible values in SrtStage enum
-                                throw new ArgumentOutOfRangeException();
-                        }
-                    }
-                }
+                ParsePath(path);
             }
             
         }
+        
+        /// <summary>
+        /// Parse a path and add appropriate parsed information in Name, Start, End, and Line.
+        /// </summary>
+        internal override void ParsePath(string path)
+        { 
+            var currentStage = SrtStage.Counter;
+            var currentSubLine = new StringBuilder();
+            var firstLineDone = false;
+            
+            using (var fs = File.OpenText(path))
+            {
+                var currentLine = "";
+                while ((currentLine = fs.ReadLine()) != null)
+                {
+                    switch (currentStage)
+                    {
+                        case SrtStage.Counter: // Counters are unnecessary, we can just use indexing in the list
+                            //currentSubLine++; // If reactivating this line, change currentSubLine to be int
+                            currentStage = SrtStage.Timings; 
+                            break; 
+                        case SrtStage.Timings: 
+                            Start.Add(Convert.ToString(Regex.Match(currentLine, @"(.+) --> (.+\d)").Groups[1])
+                                .Replace(",", ".")); 
+                            End.Add(Convert.ToString(Regex.Match(currentLine, @"(.+) --> (.+\d)").Groups[2])
+                                .Replace(",", ".")); 
+                            currentStage = SrtStage.Line; 
+                            break; 
+                        case SrtStage.Line: 
+                            if (currentLine == "") // When we surpassed all the lines in the subtitle
+                            { 
+                                //currentStage = SrtStage.Spacing;
+                                Line.Add(currentSubLine.ToString()); 
+                                currentSubLine.Clear(); 
+                                Name.Add(Path.GetFileNameWithoutExtension(path)); 
+                                firstLineDone = false; 
+                                currentStage = SrtStage.Counter; 
+                                break; 
+                            }
+                            
+                            currentSubLine.Append(firstLineDone ? "<br>" + currentLine : currentLine); // <br> is used for newline because Anki uses html tags
+                            firstLineDone = true; 
+                            break; 
+                        default: // Should never happen, there are no other possible values in SrtStage enum
+                            throw new ArgumentOutOfRangeException();
+                    }
+                }
+            }
+        }
+
+        
 
         /// <summary>
         /// Exports all parsed lines into a text file with a format of your choosing

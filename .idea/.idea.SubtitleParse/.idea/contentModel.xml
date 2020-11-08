@@ -7,6 +7,7 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="SubtitleParse" t="IncludeRecursive">
         <e p="AssParse.cs" t="Include" />
+        <e p="AutoParse.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">

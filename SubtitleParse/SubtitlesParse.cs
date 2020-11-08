@@ -35,8 +35,9 @@ namespace SubtitleParse
         //TODO: Option to ignore certain types of lines 
 
         public abstract void AddLocation(string path);
-        public abstract void AddLocation(IEnumerable<string> paths);
+        public abstract void AddLocation(IList<string> paths);
         public abstract void ParsePaths();
+        internal abstract void ParsePath(string path);
         public abstract void Export(string path, string separator);
     }
 }
